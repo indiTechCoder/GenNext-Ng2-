@@ -1,7 +1,10 @@
 # Run docker-compose build
 # Run docker-compose up
 # Live long and prosper
-
+# docker command to Run
+#  Open another command window and navigate to this application's root folder in the command window
+#  Run `docker-compose build` to build the images
+#  Run `docker-compose up` to run the containers
 version: '2'
 
 services:
