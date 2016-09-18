@@ -25,6 +25,11 @@ export class DataService {
                  .map((response: Response) => response.json())
                  .catch(this.handleError);
     }
+    getCustomer() : Observable<ICustomer[]> {
+        return this.http.get(this.url + 'customers')
+                   .map((resp: Response) => resp.json())
+                   .catch(this.handleError);
+    }
     
     handleError(error: any) {
         console.error(error);
