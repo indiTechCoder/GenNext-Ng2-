@@ -22,7 +22,7 @@ var CourseSchema = new Schema({
         required: true,
         trim: true
     },
-     technologyType: {
+    technologyType: {
         type: String,
         required: true,
         trim: true
