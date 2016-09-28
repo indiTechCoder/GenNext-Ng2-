@@ -2,10 +2,8 @@
     mongoose = require('mongoose');
 
 
-module.exports = function (){
+module.exports = function() {
     var User = mongoose.model('User');
-
-    
     passport.serializeUser(User.serializeUser());
     passport.deserializeUser(User.deserializeUser());
 
@@ -13,4 +11,3 @@ module.exports = function (){
     require('./strategies/facebook.js')();
     require('./strategies/local.js')();
 }
-
