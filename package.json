@@ -1,10 +1,10 @@
 {
-    "name": "restfulservice",
-    "author": "Dan Wahlin",
+    "name": "angularapp",
+    "author": "TArun Sharma",
     "version": "1.0.0",
     "repository": {
         "type": "git",
-        "url": "https://github.com/danwahlin/Angular2-RestfulService"
+        "url": "https://github.com/tkssharma/GenNext-Ng2-.git"
     },
     "scripts": {
         "postinstall": "npm run typings install",
